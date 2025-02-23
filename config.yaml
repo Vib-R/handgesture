@@ -1,5 +1,5 @@
 name: "Hand Gesture Recognition"
-version: "1.2"
+version: "1.1.2"
 image: "ghcr.io/potrgani/handgesturerecognition"
 slug: "handgesture"
 description: "Recognize hand gestures using MediaPipe and publish them to MQTT."

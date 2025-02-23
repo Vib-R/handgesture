@@ -96,7 +96,7 @@ def run(model: str, num_hands: int,
   # Start capturing video input from the camera
   #cap = cv2.VideoCapture(camera_id)
 
-  cap = cv2.VideoCapture(data.get("rtsp_url"))
+  cap = cv2.VideoCapture(data.get("rtsp_username") + ":" + data.get("rtsp_password") + "@" + data.get("rtsp_url"))
  # cap.set(cv2.CAP_PROP_FRAME_WIDTH, width)
  # cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
  # cv2.namedWindow('gesture_recognition', cv2.WINDOW_NORMAL)

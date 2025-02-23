@@ -1,3 +1,9 @@
+#########################################################
+# Modified by Vib-R to access RTSP Webcam with USR + PW #
+#########################################################
+
+
+
 # Hand Gesture Recognition HA-Addon
 
 The Hand Gesture Recognition Add-on is a Home Assistant add-on that enables the recognition of hand gestures using MediaPipe and publishes them to MQTT. This add-on allows users to integrate hand gesture recognition into their Home Assistant setup for various automation and control tasks.
